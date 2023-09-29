@@ -16,7 +16,9 @@ Following slides will discuss broad types of automations, with a spotlight on th
 
 #Web automations
 
-There are various sites that may need multiple clicks to get all relevant data. Checking data for bids posted on sites, creating tickets, web scraping and form fills can all be done via python scripts.
+There are various sites that may need multiple clicks to get all relevant data. 
+
+Checking data for bids posted on sites, creating tickets, web scraping and form fills can all be done via python scripts.
 
 ---
 
