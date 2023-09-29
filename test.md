@@ -47,6 +47,9 @@ Python is great at number crunching at scale, working on whole columns at a time
 
 #Excel automation spotlight-(Excel not exciting) Ageing Report
 
+&nbsp;
+
+
 Created for SAP team? Finance team? Sujata ma'am
 
 Part of Accounts master report, this is the first step. The report sorts materials based on when they were purchased. Input consists of all materials we currently have, script then keeps on going to SAP to figure out under which of the following buckets the materials fall under: Purchased within a year, material-to-material transfer, production, returned from customer and finally Ageing(not purchased within a year).
@@ -72,6 +75,9 @@ Python does the reading, crunches up calculations, creates columns and presents 
 ---
 
 #PDF extraction spotlight: Claim team automation
+
+&nbsp;
+
 
 Yet...to...be...delivered to Claims team
 
