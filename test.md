@@ -22,6 +22,8 @@ There are various sites that may need multiple clicks to get all relevant data. 
 
 #Web automation spotlight: HP link generation
 
+
+
 Created for BOS team
 
 We have carepacks in bulk. We want to send them to customers. Issue is that the link that is generated for us contains the bulk amount, which we don't want to forward. HP gives a way to delegate links to smaller chunks, which is a lengthy form filling phase.
@@ -44,13 +46,13 @@ Python is great at number crunching at scale, working on whole columns at a time
 
 #Excel automation spotlight-(Excel not exciting) Ageing Report
 
-Created for SAP team? Finance team? Sujata ma'am 
+Created for SAP team? Finance team? Sujata ma'am
 
-Part of Accounts master report, this is the first step. The report sorts materials based on when they were purchased. Input consists of all materials we currently have, script then keeps on going to SAP to figure out under which of the following buckets the materials fall under: Purchased within a year, material-to-material transfer, production, returned from customer and finally Ageing(not purchased within a year). 
+Part of Accounts master report, this is the first step. The report sorts materials based on when they were purchased. Input consists of all materials we currently have, script then keeps on going to SAP to figure out under which of the following buckets the materials fall under: Purchased within a year, material-to-material transfer, production, returned from customer and finally Ageing(not purchased within a year).
 
 ---
 
-This script does not save time, in fact we could argue it takes more time than a person would to generate this report. We are looking at opportunity cost with this script. 
+This script does not save time, in fact we could argue it takes more time than a person would to generate this report. We are looking at opportunity cost with this script.
 
 The process is lengthy, requiring a lot of data(querying all materials and when they were purchased asks a lot from SAP). Any human mistakes is costly as it derails the process. Which might not seem that bad, without taking into account when it's run: Quarter end.
 
@@ -62,7 +64,7 @@ This script keeps the team a little sane. Fully automated. Something went wrong?
 
 #PDF extraction
 
-A lot of the documents we deal with (invoices, bills, notices) are in PDF format. As a growing company the number of these keep on increasing, promting a better way to "read" these files. 
+A lot of the documents we deal with (invoices, bills, notices) are in PDF format. As a growing company the number of these keep on increasing, promting a better way to "read" these files.
 
 Python does the reading, crunches up calculations, creates columns and presents in as an Excel file(our preferred way to deal with bulk).
 
