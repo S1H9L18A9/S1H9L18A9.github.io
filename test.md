@@ -22,6 +22,7 @@ There are various sites that may need multiple clicks to get all relevant data. 
 
 #Web automation spotlight: HP link generation
 
+&nbsp;
 
 
 Created for BOS team
